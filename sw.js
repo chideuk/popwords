@@ -1,6 +1,6 @@
 // 오프라인 지원: 처음 접속 후에는 인터넷 없이도 실행된다.
 // 페이지(HTML)는 네트워크 우선(업데이트 반영), 나머지 파일은 캐시 우선.
-const CACHE = 'popwords-v1';
+const CACHE = 'popwords-v2';
 const CORE = ['./', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
 
 self.addEventListener('install', (e) => {
